@@ -1263,9 +1263,8 @@ main .main-wrapper.demo-04 .service-area .copyright p {
 /* Add a black background color to the top navigation */
 .topnav {
   background-color: #F8F7FB;
-  overflow: hidden;
   position: fixed;
-  width: 94.2%;
+  width: 100%;
   z-index: 2;
 }
 
@@ -1274,10 +1273,12 @@ main .main-wrapper.demo-04 .service-area .copyright p {
   float: right;
   display: block;
   color: #050505;
-  text-align: center;
+  text-align: right;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  margin-right: 80px;
+  margin-left: -80px;
 }
 
 /* Change the color of links on hover */
@@ -1307,7 +1308,7 @@ main .main-wrapper.demo-04 .service-area .copyright p {
 
 .columnx {
   flex: 50%;
-  padding: 5px;
+  padding: 12px;
 }
 
 
