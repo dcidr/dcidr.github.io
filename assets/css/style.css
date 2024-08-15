@@ -996,12 +996,6 @@ input:focus {
   text-align: right;
 }
 
-@media (max-width: 767px) {
-  .header .social-links {
-    display: none;
-  }
-}
-
 .header .social-links ul li {
   display: inline-block;
 }
@@ -1264,21 +1258,18 @@ main .main-wrapper.demo-04 .service-area .copyright p {
 .topnav {
   background-color: #F8F7FB;
   position: fixed;
-  width: 100%;
+  width: 94.2%;
   z-index: 2;
 }
 
 /* Style the links inside the navigation bar */
 .topnav a {
+  position: relative;
   float: right;
-  display: block;
   color: #050505;
-  text-align: right;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
-  margin-right: 80px;
-  margin-left: -80px;
 }
 
 /* Change the color of links on hover */
